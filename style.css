@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(209, 39, 96);
+    color: rgb(255, 166, 0);
+    background-color: rgb(9, 128, 128);
 }
 
 header {
@@ -21,7 +22,7 @@ header {
 header h1 { 
     font-weight: bold;
     font-size: 28px;
-    color:  rgb(209, 39, 96);
+    color:  rgb(255, 166, 0);
     margin: 0;
     justify-content: flex-start;
 }
@@ -61,9 +62,17 @@ header nav ul li {
     position: absolute;
     bottom: 80px;
     right: 60px;
+    color: rgb(209, 39, 96);
 }
 
 .section-title {
-    
+    font-size: 25px;
+    border-right: 3px rgb(209, 39, 96) solid;
+}
+
+.bio p {
+    width: 50%;
+    display: flex;
+    justify-content: right;
 }
 
