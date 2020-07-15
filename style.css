@@ -86,14 +86,24 @@ header nav ul li {
     z-index: 3;
 }
 
+.section-title {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 .section-title h1 {
     font-size: 25px;
+    padding: 20px;
     border-right: 3px rgb(209, 39, 96) solid;
+    
 }
 
-.bio p {
-    width: 50%;
+.section-title p {
+    width: 70%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
+    align-items: center;
+    padding-left: 30px;
 }
 
