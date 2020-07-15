@@ -48,24 +48,43 @@ header nav ul li {
 }
 
 .hero-pic {
-    background-image: url("./images/hero-hp.JPG");
+    position: relative;
+}
+.imgA {
+    position: absolute;
     background-size: cover;
-    background-position: 80%;
+    
+    
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
     align-items: flex-start;
     height: 500px;
+    width: 100%;
+    z-index: 1;
+}
+
+.imgB {
+    position: relative;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 500px;
+    z-index: 2;
 }
 
 .hero-cta h2 {
     position: absolute;
-    bottom: 80px;
+    bottom: 40px;
     right: 60px;
     color: rgb(209, 39, 96);
+    background-color:  rgb(241, 190, 21);
 }
 
-.section-title {
+.section-title h1 {
     font-size: 25px;
     border-right: 3px rgb(209, 39, 96) solid;
 }
@@ -73,6 +92,6 @@ header nav ul li {
 .bio p {
     width: 50%;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
 }
 
