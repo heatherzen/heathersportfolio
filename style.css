@@ -47,6 +47,7 @@ header nav ul li {
     padding: 20px;
 }
 
+
 .hero-pic {
     position: relative;
 }
@@ -82,6 +83,7 @@ header nav ul li {
     right: 60px;
     color: rgb(209, 39, 96);
     background-color:  rgb(241, 190, 21);
+    z-index: 3;
 }
 
 .section-title h1 {
